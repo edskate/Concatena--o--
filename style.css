@@ -1,0 +1,293 @@
+*{
+
+    margin:0;
+    
+    padding:0;
+    
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    
+    }
+
+    body{
+
+        font-family: 'Josefin Sans', sans-serif;
+        
+        }
+        
+        Agora, estilizamos o cabeçalho da página.
+        
+        .cabecalho{
+        
+        display: flex;
+        
+        align-items: center;
+        
+        justify-content: space-around;
+        
+        padding: 24px;
+        
+        }
+        
+        .cabecalho-imagem{
+        
+        width: 200px;
+        
+        }
+        
+        .cabecalho-menu{
+        
+        font-weight: bold;
+        
+        display: flex;
+        
+        gap: 60px;
+        
+        }
+        
+        .menu-item{
+        
+        color: #000000;
+        
+        font-size: 20px;
+        
+        }
+        .principal-box{
+
+            height: 500px;
+            
+            display: flex;
+            
+            }
+            
+            #imagem-capa{
+            
+            background-image: url("/img/pexels-jean-van-der-meulen-1457842.jpg");
+            
+            background-repeat: no-repeat;
+            
+            background-size: cover;
+            
+            width: 60%;
+            
+            }
+            
+            .principal-texto{
+            
+            background-color: rgb(9, 82, 100, 0.9);
+            
+            color: #fff;
+            
+            font-size: 37px;
+            
+            margin-top: 24%;
+            
+            width: 55%;
+            
+            padding: 30px;
+            
+            height: 130px;
+            
+            margin-left: 90%;
+            
+            }
+            
+            .conteudo-box{
+            
+            display: flex;
+            
+            gap: 30px;
+            
+            justify-content: center;
+            
+            }
+            
+            .secundario-box{
+            
+            margin-top: 5%;
+            
+            text-align: -webkit-center;
+            
+            }
+            
+            #agilidade, #conhecimento, #entrega{
+            
+            align-items: center;
+            
+            display: flex;
+            
+            flex-direction: column;
+            
+            width: 300px;
+            
+            font-weight: bold;
+            
+            color: rgb(9, 82, 100);
+            
+            border: 1px solid ;
+            
+            padding: 30px;
+            
+            border-radius: 10px;
+            
+            }
+            
+            p{
+            
+            word-wrap: break-word;
+            
+            margin-top: 12px;
+            
+            color: #000;
+            
+            }
+            
+            #entreEmContato{
+            
+            margin-top: 40px;
+            
+            font-weight: bold;
+            
+            margin-bottom: 30px;
+            
+            color: rgb(9, 82, 100);
+            
+            }
+            footer{
+
+                padding: 50px 0 20px 0;
+                
+                font-weight: bold;
+                
+                bottom: 0;
+                
+                text-align: center;
+                
+                }
+                @media (max-width: 600px) {
+
+                    .cabecalho-imagem{
+                    
+                    width: 250px;
+                    
+                    }
+                    
+                    .cabecalho-menu{
+                    
+                    display: none;
+                    
+                    }
+                    
+                    .cabecalho{
+                    
+                    padding: 24px;
+                    
+                    margin: 0;
+                    
+                    
+                    }
+                    
+                    .menu-item{
+                    
+                    display: none;
+                    
+                    }
+                    
+                    .principal-box{
+                    
+                    width: 100%;
+                    
+                    height: 300px;
+                    
+                    }
+                    
+                    #imagem-capa{
+                    
+                    width: 100%;
+                    
+                    }
+                    
+                    .principal-texto{
+                    
+                    display: flex;
+                    
+                    flex-direction: column;
+                    
+                    background-color: rgb(9, 82, 100, 0.9); color: #fff;
+                    
+                    font-size: 20px;
+                    
+                    width: 60%;
+                    
+                    padding: 30px;
+                    
+                    height: 130px;
+                    
+                    margin-left: 0;
+                    
+                    }
+                    
+                    .conteudo-box{
+                    
+                    display: flex;
+                    
+                    flex-direction: column;
+                    
+                    align-items: center;
+                    
+                    margin-top: 60px;
+                    
+                    }
+                    
+                    #agilidade, #conhecimento, #entrega{
+                    
+                    display: flex;
+                    
+                    flex-direction: column;
+                    
+                    width: 300px;
+                    
+                    font-weight: bold;
+                    
+                    color: rgb(9, 82, 100);
+                    
+                    border: 1px solid ;
+                    
+                    padding: 10px;
+                    
+                    border-radius: 10px;
+                    
+                    }
+                    
+                    .form{
+                    
+                    width: 400px;
+                    
+                    height: 500px;
+                    
+                    }
+                    
+                    label{
+                    
+                    width: 30%;
+                    
+                    }
+                    
+                    #mail, #name, #msg {
+                    
+                    width: 140px;
+                    
+                    border: 1px solid rgba(9, 82, 100, 0.479); border-radius: 10px;
+                    
+                    margin-top: 10px;
+                    
+                    margin-bottom: 10px;
+                    
+                    padding: 10px;
+                    
+                    }
+                    
+                    }
+                    
+                    
